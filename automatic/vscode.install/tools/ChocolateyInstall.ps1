@@ -31,3 +31,4 @@ $packageArgs = @{
 }
 
 Install-ChocolateyPackage @packageArgs
+Set-UpdateChannel("none")
