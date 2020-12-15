@@ -3,7 +3,7 @@
 $toolsPath      = Split-Path $MyInvocation.MyCommand.Definition
 
 $packageArgs = @{
-  packageName    = 'filezilla'
+  packageName    = 'filezilla.install'
   fileType       = $fileType
   file           = Get-Item $toolsPath\*_x32.exe
   file64         = Get-Item $toolsPath\*_x64.exe

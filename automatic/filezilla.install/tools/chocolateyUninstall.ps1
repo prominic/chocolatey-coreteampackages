@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop'
 
-$packageName         = 'filezilla'
+$packageName         = 'filezilla.install'
 $softwareNamePattern = 'FileZilla Client*'
 
 [array] $key = Get-UninstallRegistryKey $softwareNamePattern
