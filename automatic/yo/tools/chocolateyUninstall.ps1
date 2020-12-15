@@ -1,1 +1,0 @@
-﻿npm uninstall -g yo

@@ -1,1 +1,0 @@
-﻿Uninstall-BinFile 'inkscape'

@@ -1,1 +1,0 @@
-python -m pip uninstall mkdocs -y
