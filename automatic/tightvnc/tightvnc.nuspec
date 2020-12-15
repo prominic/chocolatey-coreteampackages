@@ -30,7 +30,7 @@ With TightVNC, you can:
 ]]></description>
     <summary>Remote control software</summary>
     <releaseNotes>http://www.tightvnc.com/whatsnew.php</releaseNotes>
-    <tags>remote control vnc foss cros-platform admin</tags>
+    <tags>remote control vnc foss cross-platform admin</tags>
     <packageSourceUrl>https://github.com/chocolatey-community/chocolatey-coreteampackages/tree/master/automatic/tightvnc</packageSourceUrl>
     <projectSourceUrl>https://www.tightvnc.com/download/2.8.11/tightvnc-2.8.11-src-gpl.zip</projectSourceUrl>
     <docsUrl>http://www.tightvnc.com/docs.php</docsUrl>
