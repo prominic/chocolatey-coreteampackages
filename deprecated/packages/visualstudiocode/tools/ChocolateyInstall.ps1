@@ -1,1 +1,0 @@
-﻿Write-Host "This package is deprecated due to name change to vscode"
