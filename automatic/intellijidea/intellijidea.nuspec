@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>intellijidea</id>
+    <version>2020.3</version>
+    <title>intellijidea</title>
+    <authors>JetBrains</authors>
+    <projectUrl>http://www.jetbrains.com/idea/</projectUrl>
+    <summary>Capable and Ergonomic Java IDE</summary>
+    <description>Excel at enterprise, mobile and web development with Java, Scala and Groovy, with all the latest modern technologies and frameworks available out of the box.</description>
+    <tags>java ide jetbrains idea admin</tags>
+    <licenseUrl>http://www.jetbrains.org/display/IJOS/License+Information</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.githubusercontent.com/ZeddG93/choco-pkgs-intellijidea/master/public/intellij-idea_logos/icon-intellij-idea.svg</iconUrl>
+    <packageSourceUrl>https://github.com/ZeddG93/choco-pkgs-intellijidea/tree/master/conmmunity</packageSourceUrl>
+    <releaseNotes>https://www.jetbrains.com/idea/whatsnew/</releaseNotes>
+    <bugTrackerUrl>https://youtrack.jetbrains.com/issues/IDEA</bugTrackerUrl>
+    <docsUrl>https://www.jetbrains.com/idea/documentation/</docsUrl>
+    <mailingListUrl>https://intellij-support.jetbrains.com/hc/en-us</mailingListUrl>
+    <dependencies>
+      <dependency id="intellijidea-community" version="[2020.3]" />
+    </dependencies>
+  </metadata>
+</package>
