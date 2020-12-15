@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>vmware-converter</id>
+    <version>6.2.0.100</version>
+    <packageSourceUrl>https://github.com/virtualex-itv/chocolatey/tree/master/_packages</packageSourceUrl>
+    <owners>virtualex</owners>
+    <title>VMware vCenter Converter Standalone</title>
+    <authors>VMware, Inc.</authors>
+    <projectUrl>https://my.vmware.com/en/web/vmware/info/slug/infrastructure_operations_management/vmware_vcenter_converter_standalone/6_2_0</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/virtualex-itv/choco-vmware-converter/937a722a85fcb55044a6d11c8045b20791ae2e60/_icon/converter.png</iconUrl>
+    <copyright>Copyright © 2018 VMware, Inc. All rights reserved.</copyright>
+    <licenseUrl>https://www.vmware.com/download/eula/universal_eula.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://docs.vmware.com/en/vCenter-Converter-Standalone/index.html</docsUrl>
+    <tags>vmware-converter vmware vsphere p2v v2v</tags>
+    <summary>vCenter Converter Standalone converts physical machines and virtual machines to VMware virtual machines and configures VMware virtual machines.</summary>
+    <description>vCenter Converter Standalone converts physical machines and virtual machines to VMware virtual machines and configures VMware virtual machines.</description>
+    <releaseNotes>https://docs.vmware.com/en/vCenter-Converter-Standalone/6.2/rn/conv_sa_62_rel_notes.html#install</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
