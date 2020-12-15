@@ -50,7 +50,7 @@
     <summary>PuTTY is a free implementation of Telnet and SSH for Windows and Unix platforms, along with an xterm terminal emulator.</summary>
     <tags>putty telnet ssh foss cross-platform</tags>
     <dependencies>
-      <dependency id="putty.portable" version="[0.74]" />
+      <dependency id="putty.install" version="[0.74]" />
     </dependencies>
   </metadata>
   <files>
