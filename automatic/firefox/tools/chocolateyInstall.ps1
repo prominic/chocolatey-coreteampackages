@@ -28,7 +28,7 @@ $sa = ""
 $sa += " /PreventRebootRequired=true"
 
 # Prevent RemoveDistributionDir by default
-$sa += " /RemoveDistributionDir=false"
+#$sa += " /RemoveDistributionDir=false"
 
 
 $sa += if ($pp.InstallDir) { " /InstallDirectoryPath=" + $pp.InstallDir }
@@ -39,9 +39,9 @@ $sa += if ($pp.NoDesktopShortcut) { " /DesktopShortcut=false" }
 
 $sa += if ($pp.NoStartMenuShortcut) { " /StartMenuShortcut=false" }
 
-$sa += if ($pp.NoMaintenanceService) { " /MaintenanceService=false" }
+$sa += <# if ($pp.NoMaintenanceService) #> { " /MaintenanceService=false" }
 
-$sa += if ($pp.RemoveDistributionDir) { " /RemoveDistributionDir=true" }
+$sa += <# if ($pp.RemoveDistributionDir) #> { " /RemoveDistributionDir=true" }
 
 $sa += if ($pp.NoAutoUpdate) { " /MaintenanceService=false" }
 
