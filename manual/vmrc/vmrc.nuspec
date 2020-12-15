@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>vmrc</id>
+    <version>11.2.0.16492666</version>
+	<packageSourceUrl>https://github.com/virtualex-itv/chocolatey/tree/master/_packages</packageSourceUrl>
+    <owners>virtualex</owners>
+    <title>VMware Remote Console</title>
+    <authors>VMware, Inc.</authors>
+    <projectUrl>https://www.vmware.com/go/download-vmrc</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/virtualex-itv/choco-vmware-remote-console/35a8fe9b9db80dec38155d955a0d993f43776128/_icon/vmrc.png</iconUrl>
+    <copyright>Copyright © 2020 VMware, Inc. All rights reserved.</copyright>
+    <licenseUrl>https://www.vmware.com/download/eula/universal_eula.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>vmware vsphere vmrc remote-console windows</tags>
+    <summary>VMware Remote Console provides user-guest interaction in the various products and environments that require it.</summary>
+    <description>VMware Remote Console provides access to virtual machines from remote clients and performs console and device operations such as configuring operating system settings and monitoring the virtual machine console for VMware vSphere. VMware Remote Console can also modify virtual machine settings such as RAM, CPU cores, and disks.
+	
+	Please see the [**README**](https://github.com/virtualex-itv/choco-vmware-remote-console) for chocolatey-test-environment installation.</description>
+    <releaseNotes>https://docs.vmware.com/en/VMware-Remote-Console/11.2.0/rn/VMware-Remote-Console-1120-Release-Notes.html</releaseNotes>
+    <dependencies>
+      <dependency id="vcredist2015" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
