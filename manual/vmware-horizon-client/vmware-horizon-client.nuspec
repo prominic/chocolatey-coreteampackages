@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>vmware-horizon-client</id>
+    <version>8.0.0.16531419</version>
+	<packageSourceUrl>https://github.com/virtualex-itv/choco-vmware-horizon-client/tree/master</packageSourceUrl>
+    <owners>virtualex windos medalibi</owners>
+    <title>VMware Horizon Client for Windows</title>
+    <authors>VMware, Inc.</authors>
+    <projectUrl>https://my.vmware.com/web/vmware/downloads/info/slug/desktop_end_user_computing/vmware_horizon_clients/2006</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/virtualex-itv/choco-vmware-horizon-client/ce63053058a5612f6a6821c9af1c7d8948ae2b57/_icon/ViewClientIcon.png</iconUrl>
+    <copyright>Copyright © 2020 VMware, Inc.  All rights reserved.</copyright>
+    <licenseUrl>https://www.vmware.com/help/legal.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<docsUrl>https://docs.vmware.com/en/VMware-Horizon-Client/index.html</docsUrl>
+  <mailingListUrl>https://communities.vmware.com/community/vmtn/horizon/view/client_for_windows</mailingListUrl>
+    <tags>vmware horizon view client virtual-machine vdi admin</tags>
+    <summary>Client application used to connect to virtual desktops from Windows desktop computers.</summary>
+    <description>VMware Horizon Client for Windows makes it easy to access your Windows virtual desktop with the best possible user experience on the Local Area Network (LAN) or across a Wide Area Network (WAN). Support for Windows 10, Windows 8 and 8.1 (with Updates), and Windows 7.
+	
+	Please see the [**README**](https://github.com/virtualex-itv/choco-vmware-horizon-client) for chocolatey-test-environment installation.</description>
+    <releaseNotes>
+      
+      The **8.0.0** release of Horizon Client for Windows 2006 contains the following new features:
+	  
+	  * **Configure the maximum latency for mouse coalescing**
+	  The **Configure maximum latency for mouse coalescing** group policy setting enables you to configure the maximum latency allowed, in milliseconds, when coalescing mouse movement events. See General Settings for Client GPOs.
+      * **Windows 10 2004 support**
+	  You can install Horizon Client for Windows on a Windows 10 2004 client system.You can install Horizon Client for Windows on a Windows 10 2004 client system.
+	  * **Client version restriction**
+	  A warning message appears in Horizon Client if you try to connect to a server that does not support your Horizon Client version. For information about setting up client version restrictions, see Global Client Restriction Settings for Client Sessions.
+	  * **Certificate revocation changes**
+	  When the **Ignore certificate revocation problems** group policy setting is enabled, the client might only use a cached URL during server certificate verification. Horizon Client now passes additional certificate flags to handle time outs.
+	  * **Video support in Media Optimization for Microsoft Teams**
+	  Both audio and video are supported. Previously, only audio was supported. This feature requires Horizon Agent 2006. To use this feature, the **Enable Media Optimization for Microsoft Teams** option must be selected during Horizon Client for Windows installation. See Install Horizon Client for Windows.
+	  
+      [**Full Release Notes**](https://docs.vmware.com/en/VMware-Horizon-Client-for-Windows/2006/rn/horizon-client-windows-2006-release-notes.html)
+	  ---
+	  
+	  **Note:**
+      The **4.6.1** release of Horizon Client for Windows included a new command-line installation property called AUTO_UPDATE_ENABLED. This property determines whether the online update feature is enabled in Horizon Client for Windows. A value of 1 enables the feature. A value of 0 disables the feature.
+	  
+    </releaseNotes>
+    <dependencies>
+  	  <dependency id="vcredist2015" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,26 @@
+version: 8.0.0.16531419.{build}
+environment:
+  TOKEN:
+    secure: 7vdY1FDIcMA9+2GbVc/cmQSEDVPeypkvbLAkK1M7RzHyBuVBZh3wdLy5dElG3K7G
+
+before_build:
+  - ps: cup chocolatey -y
+
+build_script:
+  - ps: choco pack
+
+test_script:
+  - powershell -file test.ps1
+
+deploy_script:
+  - ps: >-
+      Write-Host $env:APPVEYOR_REPO_TAG ;
+      if($env:APPVEYOR_REPO_BRANCH -eq 'master' -And $env:APPVEYOR_REPO_TAG -eq 'true') {
+        $version = $env:APPVEYOR_BUILD_VERSION -replace('\.[^.\\/]+$') ;
+        choco apiKey -k $env:TOKEN -source https://push.chocolatey.org/ ;
+        choco push vmware-horizon-client.$version.nupkg
+      }
+
+artifacts:
+  - path: '**\*.nupkg'
+    name: Package
