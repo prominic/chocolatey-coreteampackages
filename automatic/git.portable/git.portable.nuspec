@@ -29,7 +29,7 @@ Git for Windows focuses on offering a lightweight, native set of tools that brin
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.jsdelivr.net/gh/chocolatey-community/chocolatey-coreteampackages@10a8d98b2f320b565fa5349a4352e79666db71ff/icons/git.svg</iconUrl>
     <dependencies>
-      <dependency id="chocolatey" version="0.9.10" />
+<!--     <dependency id="chocolatey" version="0.9.10" /> -->
     </dependencies>
   </metadata>
   <files>
