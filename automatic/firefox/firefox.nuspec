@@ -10,7 +10,7 @@
     <bugTrackerUrl>https://bugzilla.mozilla.org/</bugTrackerUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chocolatey-community/chocolatey-coreteampackages@8a7376cf4e5b7cde0eb1c6a608529601bfcd9546/icons/firefox.svg</iconUrl>
     <licenseUrl>https://www.mozilla.org/en-US/MPL/2.0/</licenseUrl>
-    <id>Firefox</id>
+    <id>firefox</id>
     <title>Mozilla Firefox</title>
     <owners>chocolatey-community</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
